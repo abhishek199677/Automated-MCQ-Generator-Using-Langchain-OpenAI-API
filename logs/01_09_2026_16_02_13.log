@@ -1,0 +1,25 @@
+[2026-01-09 16:23:51,413] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-01-09 16:23:52,853] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-01-09 16:23:52,914] 105 root - INFO - MCQ Generation - Tokens: 1245, Cost: $0.001032
+[2026-01-09 16:28:00,133] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-01-09 16:28:01,652] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-01-09 16:28:01,665] 132 root - INFO - Generated 5 MCQs - Tokens: 1417
+[2026-01-09 16:28:01,665] 165 root - ERROR - MCQ generation failed
+Traceback (most recent call last):
+  File "C:\Users\hi\OneDrive\Desktop\Automated-MCQ-Generator-Using-Langchain-OpenAI-API\app.py", line 143, in <module>
+    table_data = parse_mcq_table(quiz)
+                 ^^^^^^^^^^^^^^^
+NameError: name 'parse_mcq_table' is not defined
+[2026-01-09 16:31:40,282] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-01-09 16:31:41,785] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-01-09 16:31:41,789] 132 root - INFO - Generated 5 MCQs - Tokens: 1404
+[2026-01-09 16:31:41,790] 165 root - ERROR - MCQ generation failed
+Traceback (most recent call last):
+  File "C:\Users\hi\OneDrive\Desktop\Automated-MCQ-Generator-Using-Langchain-OpenAI-API\app.py", line 143, in <module>
+    table_data = parse_mcq_table(quiz)
+                 ^^^^^^^^^^^^^^^
+NameError: name 'parse_mcq_table' is not defined
+[2026-01-09 16:51:45,272] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-01-09 16:51:46,692] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-01-09 16:54:27,444] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-01-09 16:54:28,402] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
